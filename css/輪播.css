@@ -1,0 +1,30 @@
+
+
+.out{
+    border: 6px solid red;
+    width: 1200px;
+}
+
+.aa-out{
+    width: 1200px;
+    border: 5px solid green;
+    
+}
+
+.aa{
+    border: 4px solid orange;
+    
+    
+    
+}
+.a{
+    border: 3px solid black;
+    
+}
+.imgg{
+    border: 2px solid purple;
+}
+
+.b{
+    border: 6px solid brown;
+}

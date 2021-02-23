@@ -1,0 +1,118 @@
+@import url(rest.css);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 30px;
+  font-family: Arial;
+  background-color: #ffe893;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.big-news {
+  width: 1200px;
+  overflow: hidden;
+  color: white;
+  margin-bottom: 20px;
+}
+.big-left {
+  width: 600px;
+  float: left;
+}
+.big-left h2 {
+  font-size: 40px;
+  padding-top: 30px;
+  color: violet;
+}
+.big-left h2 + h2 {
+  color: red;
+  padding-left: 45px;
+  padding-top: 0;
+}
+
+.big-left h3 {
+  padding-left: 180px;
+  margin-bottom: 30px;
+}
+
+.big-left h1 a {
+  /* border: 1px solid red; */
+  width: 600px;
+  display: block;
+  font-size: 50px;
+  margin-top: 110px;
+  text-align: center;
+  text-decoration: none;
+}
+.big-left h1 a:hover {
+  color: black;
+  text-decoration: underline;
+}
+.seemore {
+  display: block;
+  width: 250px;
+  height: 50px;
+  background-color: yellow;
+  text-align: center;
+  text-decoration: none;
+  line-height: 50px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+.seemore:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.big-rigrt img {
+  width: 45%;
+  float: right;
+}
+
+.down-news {
+  /* background-color: red; */
+  /* border: 2px solid green; */
+}
+
+.down-news img {
+  width: 100%;
+}
+.down-news ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+}
+
+.down-news li {
+  /* border: 2px solid; */
+  /* margin-right: 30px; */
+  width: 300px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.down-news a {
+  display: block;
+  width: 110px;
+  font-size: 20px;
+  /* background-color: red; */
+  text-align: center;
+  text-decoration: none;
+  float: right;
+}
+
+.down-news a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.down-news h2 {
+  color: white;
+  margin-top: 40px;
+  font-size: 20px;
+}

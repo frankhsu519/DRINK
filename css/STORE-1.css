@@ -1,0 +1,75 @@
+@import url(rest.css);
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 30px;
+    font-family: Arial;
+    background-color: #FFE893;
+    width: 1200px;
+    margin: 0 auto;
+}
+.outer{
+    background-image:url(../img/map3-new.png);
+    height: 300px;
+    background-position: 90px top  ;
+}
+.top{
+    
+}
+
+.top h1{
+    color: white;
+    font-size: 45px;
+    padding-left: 30px;
+    padding-top: 30px;    
+}
+
+.dropdown{
+   padding-left: 30px;
+   margin-top: 20px;
+}
+
+.dropdown select{
+    font-size: 20px;
+    margin-right: 20px;
+}
+.menu{
+
+}
+.location h1{
+    /* border: 1px solid red; */
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.location h1::after{
+    content: " /";
+}
+
+.card{
+}
+.card h2{
+    margin-bottom: 10px;
+}
+.card ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.card li{
+    width: 290px;
+    height: 180px;
+    border: 2px solid #4D952E;
+    /* background-color: black; */
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color:#4D952E;
+}
+
+.card i{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,108 @@
+@import url(rest.css);
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 30px;
+    font-family: Arial;
+    background-color: #FFE893;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+
+/* ----- Banner ----- */
+.banner-block{
+
+}
+
+.banner-block img{
+    width: 1200px;
+}
+/* ----- news ----- */
+.news{
+    color: white;
+    overflow: hidden;
+    
+    /* border: 1px solid red; */
+}
+
+.news-text h1{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    padding-left: 75px;
+    padding-top: 20px;
+    font-size: 40px;
+    float: left;
+}
+
+.news-text ul{
+    padding-top: 60px;
+    padding-left: 75px;
+    float: left;
+}
+.news-text li{
+    margin-bottom: 30px;
+   
+}
+
+.news-text li a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+.news-text li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.news img{
+    width: 400px;
+    float: right;
+}
+/* ----- food block----- */
+.food{
+    margin-top: 30px;
+    width: 1200px;
+}
+
+.food h1{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.food ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.food li{
+   width: 350px;
+   text-align: right;
+}
+
+.food img{
+    width: 100%;
+}
+
+.food img:hover{
+    width: 105%
+}
+.food li:first-child{
+    color: white;
+}
+
+.food li:nth-child(2){
+    color:#10E93C;  
+}
+
+.food li:last-child{
+    color: #7A554A;
+}

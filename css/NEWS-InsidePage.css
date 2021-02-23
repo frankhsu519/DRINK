@@ -1,0 +1,72 @@
+@import url(rest.css);
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 30px;
+    font-family: Arial;
+    background-color: #FFE893;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.main{
+    overflow: hidden;
+}
+.left{
+    color: white;
+    width: 600px;
+    float: left;
+    /* border: 1px solid red; */
+
+    
+}
+
+.left h2{
+    padding-top: 20px;
+    padding-left: 20px;  
+    padding-bottom: 70px;
+}
+.left h1{
+    font-size: 50px;
+    padding-left: 20px;
+    padding-bottom: 80px;
+}
+
+.left p{
+    color: red;
+    width: 550px;
+    padding-left: 20px;
+    font-size: 35px;
+    line-height: 1.2;
+}
+
+.right{
+    width: 600px;
+    float: right;
+    /* border: 1px solid; */
+    margin-top: 20px;
+}
+.right img{
+    width: 100%;
+
+    
+}
+.down{
+    
+}
+
+.down a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin: 30px;
+    color: white;
+}
+.down a:hover{
+    color: black;
+    text-decoration: underline;
+
+}
